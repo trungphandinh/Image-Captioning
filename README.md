@@ -137,4 +137,30 @@ python evaluate.py --model_path <path_to_your_model.pth>
 ```bash
 python evaluate.py --model_path models/weights/image_captioning_epoch_50.pth
 ```
-The script will output the BLEU-1, BLEU-2, BLEU-3, and BLEU-4 scores, giving you a quantitative measure of the model's performance. 
+The script will output the BLEU-1, BLEU-2, BLEU-3, and BLEU-4 scores, giving you a quantitative measure of the model's performance.
+
+---
+
+## Web Application
+This project includes a simple web application built with Flask that allows you to upload an image and generate a caption using a trained model.
+
+### Running the Web App
+1.  **Start the Flask Server**:
+    Make sure you have installed all the dependencies from `requirements.txt`, including `Flask`.
+
+    ```bash
+    python app.py
+    ```
+
+2.  **Open in Browser**:
+    Once the server is running, open your web browser and navigate to:
+    ```
+    http://127.0.0.1:5000
+    ```
+
+3.  **Generate a Caption**:
+    - Click the "Choose File" button to select an image from your computer.
+    - Click the "Generate Caption" button.
+    - The uploaded image and its generated caption will be displayed on the page.
+
+![Web App Screenshot](path/to/screenshot.png) <!-- Optional: Add a screenshot of your web app --> 
