@@ -1,0 +1,9 @@
+torch
+torchvision
+pandas
+nltk
+scikit-learn
+Pillow
+tensorboard
+tqdm 
+Flask 
